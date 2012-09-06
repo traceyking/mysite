@@ -26,6 +26,7 @@ header img{
 	list-style: none;
 	overflow: hidden;
 }
+/*----------------------------
 
 .nav li {
 	width: 100px;
@@ -37,7 +38,8 @@ header img{
 		
 }
 
-.nav a {
+	
+.nav a:link {
 	text-decoration: none;
 	background: black;
 	display: block;
@@ -49,28 +51,30 @@ header img{
 }
 
 .nav a: hover {
-	color: #fff;
-	background-color: #e88017;
+	color: #000;
+	background-color: red;
 	
 }
+*/
 	
 	
 h2, h3, h4 {
 	font-family: Squada One, cursive;
 	font-weight: normal;
-	font-color:#63413b;
+	font-color:rgb(99,65,58);
 }
 
 h2 {
-	font-size:24px;
+	font-size:36px;
+	text-shadow: 1px 2px 2px #111;
 }
 
 h3 {
-	font-size:20;
+	font-size:26px;
 }
 
 h4 {
-	font-size:18;
+	font-size:22px;
 }
 
 
@@ -84,7 +88,7 @@ article {
 	column-count:3;
 
 	-moz-column-gap:20px; 
-	-webkit-column-gap:200px; 
+	-webkit-column-gap:20px; 
 	column-gap:20px;
 
 	-moz-column-rule:2px outset #fff;
@@ -92,6 +96,6 @@ article {
 	column-rule:2px outset #fff;
 }
 
-#intro img {
+#intro {
 	float-left;
 }
