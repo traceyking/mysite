@@ -11,11 +11,7 @@ body {
 	
 }
 
-header {
 
-	
-	
-}
 
 h1 {
 	text-indent: -9000px;
@@ -24,8 +20,10 @@ h1 {
 
 
 header img{ 
-	border:2px #fff;
+	border:5px #000;
 	float:left;
+	padding:15px;
+
 	
 }
 		
@@ -48,10 +46,10 @@ header img{
 		
 }
 
-/*----------------------------	
-.nav a:link {
+
+.nav a {
 	text-decoration: none;
-	background: black;
+	background: #9d9d9d;
 	display: block;
 	height: 30px;
 	line-height: 30px;
@@ -60,13 +58,27 @@ header img{
 	
 }
 
-.nav a: hover {
+.nav a: visited {
 	color: #000;
-	background-color: red;
+	background-color: #fff;
 	
 }
-*/
+
+
+.nav a: hover {
+	color: #89641b;
+	background-color: #000;
+}
+
+
+.nav a: active{
+	color: #fff;
+	background-color: #89641b;
+}
+
+
 	
+/*-----------------------------------end of top nav--------*/
 	
 h2, h3, h4 {
 	font-family: Squada One, cursive;
