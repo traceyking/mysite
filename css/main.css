@@ -107,8 +107,37 @@ article {
 	column-rule:2px outset #fff;
 }
 
-#intro {
+#intro p {
 	float-left;
-
 	
 }
+
+span{
+	color:#fff;
+	clear:both;
+	
+}
+
+
+#images ul{
+	list-style-type: none;
+	width:780px;
+	border: 10px solid #FF8C00;
+	margin:15px auto;
+	overflow:hidden;
+}
+
+#images li{
+	float:left;
+	margin:20px;
+}
+
+#images a{
+	border: 5px solid #000;
+	display: block;
+	height: 100px;
+	width: 100px;
+	outline: 0;
+}
+
+	
