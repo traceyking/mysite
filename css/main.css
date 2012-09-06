@@ -1,37 +1,39 @@
 body {
-	line-height: 1.5em
-	width: 790;
-	margin:auto 0;
-	
+	line-height: 1.5em;
+	width: 790px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0px;
 	
 }
-header h1 {
+
+
+h1 {
 	text-indent: -9000px;
 	float:right;
-
 }
+
 
 header img{ 
 	border:2px #fff;
-	clear:both;
+	clear:right;
 }
 		
 .nav ul {
 	width:500px;
 	margin: 0 auto;
-	padding; 0;
+	padding: 0;
 	list-style: none;
 	overflow: hidden;
 }
 
 .nav li {
 	width: 100px;
-	background-color: #000;
+	background-color: #fff;
 	font-family: Yellowtail, cursive;
 	font-size: 24px
 	font-color:#765f39;
-	line-height:1.5em 
-	float: left;
+	float: right;
 		
 }
 
@@ -53,7 +55,7 @@ header img{
 }
 	
 	
-
-#intro{
-	clear:both;
+h2, h3, h4 {
+	font-family: Squada One, cursive;
+	
 }
