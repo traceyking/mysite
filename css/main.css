@@ -4,14 +4,15 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px 0px;
+	background-image: url(../images/bg.gif);
 	background-color:rgba(156, 151, 147, 20);
-	
+	background-repeat: repeat-x;
 	
 	
 }
 
 header {
-	background: url(../images/bg.jpg) repeat-x fixed left-top;
+
 	
 	
 }
