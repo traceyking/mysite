@@ -20,7 +20,7 @@ header img{
 }
 		
 .nav ul {
-	width:500px;
+	width:600px;
 	margin: 0 auto;
 	padding: 0;
 	list-style: none;
@@ -31,15 +31,15 @@ header img{
 	width: 100px;
 	background-color: #fff;
 	font-family: Yellowtail, cursive;
-	font-size: 24px
-	font-color:#765f39;
-	float: right;
+	font-size: 26px;
+	font-color:#63413b;
+	float: left;
 		
 }
 
 .nav a {
 	text-decoration: none;
-	background: #fff;
+	background: black;
 	display: block;
 	height: 30px;
 	line-height: 30px;
@@ -59,3 +59,22 @@ h2, h3, h4 {
 	font-family: Squada One, cursive;
 	
 }
+
+
+article {
+	background-color:silver;
+	
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+
+	-moz-column-gap:20px; 
+	-webkit-column-gap:200px; 
+	column-gap:20px;
+
+	-moz-column-rule:2px outset #ff00ff;
+	-webkit-column-rule:2px outset #ff00ff; 
+	column-rule:2px outset #ff00ff;
+}
+
+
