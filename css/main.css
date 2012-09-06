@@ -4,9 +4,18 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px 0px;
+	background-color:rgba(156, 151, 147, 20);
+	
+	
 	
 }
 
+header {
+	background-image: url(../images/bg.jpg);
+	background-attachment: fixed;
+	background-position:top left;
+	background-repeat:right;
+}
 
 h1 {
 	text-indent: -9000px;
@@ -16,7 +25,8 @@ h1 {
 
 header img{ 
 	border:2px #fff;
-	clear:right;
+	float:left;
+	
 }
 		
 .nav ul {
@@ -26,7 +36,7 @@ header img{
 	list-style: none;
 	overflow: hidden;
 }
-/*----------------------------
+
 
 .nav li {
 	width: 100px;
@@ -38,7 +48,7 @@ header img{
 		
 }
 
-	
+/*----------------------------	
 .nav a:link {
 	text-decoration: none;
 	background: black;
@@ -98,4 +108,6 @@ article {
 
 #intro {
 	float-left;
+
+	
 }
