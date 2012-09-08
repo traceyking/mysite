@@ -3,7 +3,6 @@ body {
 	width: 790px;
 	margin-left: auto;
 	margin-right: auto;
-	padding:30px 20px 30px 20px;
 	background-color: #333;
 }
 
@@ -39,7 +38,7 @@ header img{
 }
 		
 .nav ul {
-	width:760px;
+	width:790px;
 	margin: 0 auto;
 	padding: 10px;
 	list-style: none;
@@ -133,8 +132,9 @@ article {
 }
 
 #intro img{
-	margin:auto;
-	padding:30px;
+	margin-right: auto;
+	margin-left: auto 0;
+	padding: 20px;
 }
 
 #intro p {
