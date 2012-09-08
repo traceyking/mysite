@@ -4,6 +4,17 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #333;
+
+}
+body a:link {
+	margin10px;
+	align:right;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#fff;
+	border: 3px #C60 solid;
+	border-radius:3px;	
+	
 }
 
 header {
@@ -200,6 +211,13 @@ span{
 
 
 /* ------------------------end of image gallery--------*/
+
+#join {
+	color#fff;
+}
+
+
+	
 
 footer {
 	background-color:#fff;
