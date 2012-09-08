@@ -24,7 +24,7 @@ header img {
 #intro {
 	background-image: url(../images/bg_image.gif);
 	background-repeat: repeat-x;
-	background-attachment: fixed;		
+	width: 790px;
 }
 
 
@@ -89,8 +89,7 @@ header .nav ul {
 h2, h3, h4 {
 	font-family: Squada One, cursive;
 	font-weight: normal;
-	text-shadow: 3px 3px 8px #000;
-	font-color:rgb(99,65,58);
+	text-shadow: 3px 3px 5px #000;
 }
 
 h2 {
@@ -106,8 +105,9 @@ h3 {
 }
 
 h4 {
-	font-size: 22px;
-	color: #333;
+	font-size: 26px;
+	color: #666;
+	
 }
 
 
@@ -130,9 +130,8 @@ article {
 }
 
 #intro img{
-	margin-right: auto;
-	margin-left: auto;
-	padding: 50px;
+	padding: 20px;
+	margin: 0 auto;
 }
 
 #intro p {
@@ -173,13 +172,32 @@ span{
 	margin:20px;
 }
 
-#images a{
+#images a:link{
 	border: 3px solid #000;
 	display: block;
 	height: 100px;
 	width: 100px;
 	outline: 0;
+
 }
+
+	
+#images a:visited {
+	background-color: #C60;
+}
+
+
+#images a:hover {
+	border-color: #999;
+}
+
+
+#images a:active {
+	border-color:#FFF;
+}
+
+
+
 
 /* ------------------------end of image gallery--------*/
 
