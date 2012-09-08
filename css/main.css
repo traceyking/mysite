@@ -31,8 +31,7 @@ body {
    font-family: Georgia, serif;
    text-decoration: none;
    vertical-align: middle;
-   margin-top: 20px;
-   margin-bottom:20px;
+
    }
    
 .top:hover {
@@ -129,7 +128,7 @@ header .nav ul {
 h2, h3, h4 {
 	font: Squada One, cursive;
 	font-weight: normal;
-	text-shadow: 3px 3px 3px #000;
+	text-shadow: 2px 0px 2px #000;
 	line-height:1.5;
 	
 }
@@ -157,6 +156,7 @@ h4 {
 article {
 	background-color:silver;
 	padding:15px;
+	margin-top:50px;
 	
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
