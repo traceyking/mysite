@@ -6,11 +6,20 @@ body {
 	background-color: #333;
 }
 
-.logo {
+header {
+	background-color: #FFF;
+	height: 95px;
+	width:790px
+	margin: auto;
+}
+
+
+#logo {
 	background-color:#FFF;
-	width:790px;
-	height:95px;
-	margin:autoh;
+	height:85px;
+	width:790px
+	margin:auto;
+	overflow:hidden;
 }
 	
 	
@@ -29,18 +38,15 @@ h1 {
 }
 
 
-header img{ 
-	border:5px #000;
-	float:left;
-	padding:15px;
-	margin:auto;
-	
+header img{
+	margin: auto;
 }
+	
 		
 .nav ul {
-	width:790px;
+	width:561px;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 5px;
 	list-style: none;
 	overflow: hidden;
 }
@@ -133,8 +139,8 @@ article {
 
 #intro img{
 	margin-right: auto;
-	margin-left: auto 0;
-	padding: 20px;
+	margin-left: auto;
+	padding: 50px;
 }
 
 #intro p {
@@ -144,7 +150,6 @@ article {
 
 span{
 	color:#fff;
-	clear:both;
 	
 }
 
