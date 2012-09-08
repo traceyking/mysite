@@ -4,19 +4,48 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #333;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding:20px;
 
 }
-body a:link {
-	margin10px;
-	align:right;
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:16px;
-	color:#fff;
-	border: 3px #C60 solid;
-	border-radius:3px;	
-	
-}
 
+.top {
+   border-top: 1px solid #ffffff;
+   background: #ba7007;
+   background: -webkit-gradient(linear, left top, left bottom, from(#facead), to(#ba7007));
+   background: -webkit-linear-gradient(top, #facead, #ba7007);
+   background: -moz-linear-gradient(top, #facead, #ba7007);
+   background: -ms-linear-gradient(top, #facead, #ba7007);
+   background: -o-linear-gradient(top, #facead, #ba7007);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 15px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-top: 20px;
+   margin-bottom:20px;
+   }
+   
+.top:hover {
+   border-top-color: #ffffff;
+   background: #ffffff;
+   color: #636163;
+   }
+.top:active {
+   border-top-color: #ff8d14;
+   background: #ff8d14;
+  }
+   
+   
 header {
 	background-color: #FFF;
 	height: 95px;
@@ -34,7 +63,7 @@ header img {
 	
 #intro {
 	background-image: url(../images/bg_image.gif);
-	background-repeat: repeat-x;
+	background-repeat: repeat-y;
 	width: 790px;
 }
 
@@ -98,14 +127,16 @@ header .nav ul {
 /*-----------------------------------end of top nav--------*/
 	
 h2, h3, h4 {
-	font-family: Squada One, cursive;
+	font: Squada One, cursive;
 	font-weight: normal;
-	text-shadow: 3px 3px 5px #000;
+	text-shadow: 3px 3px 3px #000;
+	line-height:1.5;
+	
 }
 
 h2 {
 	font-size: 45px;
-	text-shadow: 2px 3px 8px #000;
+	text-shadow: 2px 3px 4px #000;
 	clear: both;
 	color: #FFF;
 }
