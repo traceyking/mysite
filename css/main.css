@@ -14,12 +14,9 @@ header {
 }
 
 
-#logo {
-	background-color:#FFF;
-	height:85px;
-	width:790px
-	margin:auto;
-	overflow:hidden;
+header img {
+	float: left;
+	margin: -10px 10px;
 }
 	
 	
@@ -32,20 +29,12 @@ header {
 
 
 
-h1 {
-	text-indent: -9000px;
-	
-}
-
-
-header img{
-	margin: auto;
-}
 	
 		
-.nav ul {
-	width:561px;
-	margin: 0 auto;
+header .nav ul {
+	clear: right;
+	width: 525px;
+	margin: 0 -5px 0 0;
 	padding: 5px;
 	list-style: none;
 	overflow: hidden;
@@ -111,7 +100,8 @@ h2 {
 }
 
 h3 {
-	font-size:26px;
+	font-size: 30px;
+	color: #FFF;
 }
 
 h4 {
@@ -154,6 +144,16 @@ span{
 }
 
 /*----------------end of columns----------------------*/
+
+#features  {
+	background-color:#C60;
+	border-bottom:#333 3px; 
+	border-top: #333 3px;
+	margin:auto;
+	padding:20px;
+}
+	
+	
 #images ul{
 	list-style-type: none;
 	width:775px;
@@ -176,3 +176,7 @@ span{
 }
 
 /* ------------------------end of image gallery--------*/
+
+footer {
+	background-color:#fff;
+}
