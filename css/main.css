@@ -71,7 +71,7 @@ header img{
 }
 
 
-.nav a: active{
+.nav a: active {
 	color: #fff;
 	background-color: #89641b;
 }
@@ -130,7 +130,7 @@ span{
 	
 }
 
-
+/*----------------end of columns----------------------*/
 #images ul{
 	list-style-type: none;
 	width:780px;
@@ -152,4 +152,4 @@ span{
 	outline: 0;
 }
 
-	
+/* ------------------------end of image gallery--------*/
