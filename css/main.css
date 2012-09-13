@@ -175,12 +175,15 @@ article {
 }
 
 #main_image {
-	border: 6px rgb(0,0,0);
 	width: 81.012658%; /*640px/790*/
 	padding: 2.531646%; /*20px/790*/
 	margin: 0 auto;
+}
+
+#main_image img{
 	max-width:100%;
 }
+
 
 #intro p {
 	margin: auto;
