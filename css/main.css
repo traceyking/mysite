@@ -1,15 +1,14 @@
 body {
-	line-height: 1.5em;
 	width: 790px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #333;
-	font: 14px/100% Arial, Helvetica, sans-serif;
+	font: 100%/1.5 Arial, Helvetica, sans-serif;
 	text-align: left;
 	padding:20px;
 
 }
-
+/*======== top button =======*/
 .top {
    border-top: 1px solid #ffffff;
    background: #ba7007;
@@ -27,7 +26,7 @@ body {
    box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
    color: white;
-   font-size: 15px;
+   font-size: 0.8125em; /*13px*/
    font-family: Georgia, serif;
    text-decoration: none;
    vertical-align: middle;
@@ -43,7 +42,7 @@ body {
    border-top-color: #ff8d14;
    background: #ff8d14;
   }
-   
+/*====== header and image starts below ===== */   
    
 header {
 	background-color: #FFF;
@@ -84,7 +83,7 @@ header .nav ul {
 	width: 100px;
 	background-color: #333;
 	font-family: Yellowtail, cursive;
-	font-size: 22px;
+	font-size: 1.375em; /*22px*/
 	font-color: #63413b;
 	float: left;		
 }
@@ -134,14 +133,14 @@ h2, h3, h4 {
 }
 
 h2 {
-	font-size: 45px;
+	font-size: 2.8125em; /*45px*/
 	text-shadow: 2px 3px 4px #000;
 	clear: both;
 	color: #FFF;
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 1.875em; /*30px*/
 	color: #FFF;
 }
 
@@ -151,7 +150,7 @@ h4 {
 	
 }
 
-
+/*=========heading tags ========*/
 
 article {
 	background-color:silver;
@@ -170,6 +169,7 @@ article {
 	-webkit-column-rule:2px outset #fff; 
 	column-rule:2px outset #fff;
 }
+/* =======column text==========*/
 
 #intro img{
 	padding: 20px;
