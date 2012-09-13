@@ -72,7 +72,7 @@ header img {
 header .nav ul {
 	clear: right;
 	width: 66.455696%; /*525px/790px*/
-	margin: 0 -5px 0 0;
+	margin: 0 -.952381% 0 0; /*-5px/525*/
 	padding: .952381%; /* 5px/525px*/
 	list-style: none;
 	overflow: hidden;
@@ -80,7 +80,7 @@ header .nav ul {
 
 
 .nav li {
-	width: 100px;
+	width: 19.047619%; /*100px/526*/
 	background-color: #333;
 	font-family: Yellowtail, cursive;
 	font-size: 1.375em; /*22px*/
@@ -96,7 +96,7 @@ header .nav ul {
 	height: 1.875em; /*30px*/
 	line-height: 1.875em; /*30px*/
 	text-align: center;
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 	
@@ -107,14 +107,14 @@ header .nav ul {
 
 
 .nav a:hover {
-	color: #FFFFFF;
+	color: #FFF;
 	background-color: #666;
 }
 
 
 .nav a:active {
 	color: #999;
-	background-color: #FFFFFF;
+	background-color: #FFF;
 }
 
 
@@ -127,16 +127,15 @@ header .nav ul {
 h2, h3, h4 {
 	font: Squada One, cursive;
 	font-weight: normal;
-	text-shadow: 0.125em 0.00em 0.125em; /*2px 0px 2px #000*/
+	text-shadow: 0.125em 0.00em 0.125em rgb(51,51,51); /*2px 0px 2px #000*/
 	line-height:1.5;
 	
 }
 
 h2 {
 	font-size: 2.8125em; /*45px*/
-	text-shadow: 0.125em 0.188em 0.250em; /*2px 3px 4px #000*/
 	clear: both;
-	color: #FFF;
+	color: #fff;
 }
 
 h3 {
@@ -153,6 +152,7 @@ h4 {
 /*=========heading tags ========*/
 
 article {
+	width: 100%; /*790px*/
 	background-color:silver;
 	padding:15px;
 	margin-top:50px;
@@ -161,9 +161,9 @@ article {
 	-webkit-column-count:3; /* Safari and Chrome */
 	column-count:3;
 
-	-moz-column-gap:20px; 
-	-webkit-column-gap:20px; 
-	column-gap:20px;
+	-moz-column-gap: 1.250em; /*20px*/; 
+	-webkit-column-gap:1.250em; 
+	column-gap:1.250em;
 
 	-moz-column-rule:2px outset #fff;
 	-webkit-column-rule:2px outset #fff; 
@@ -190,8 +190,8 @@ span{
 
 #features  {
 	background-color: rgba(204,102,0,0.75);
-	border-bottom: #333 3px;
-	border-top: #333 3px;
+	border-bottom: #333 0.188em; /*3px*/
+	border-top: #333 0.188em; /*3px*/
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -203,22 +203,22 @@ span{
 	
 #images ul{
 	list-style-type: none;
-	width:775px;
-	border:4px solid #FF8C00;
+	width: 98.101266%; /*775px/790*/
+	border:0.250em solid #FF8C00;
 	margin:auto;
 	overflow:hidden;
 }
 
 #images li{
 	float:left;
-	margin:20px;
+	margin: 2.580645%; /*20px/775px*/
 }
 
 #images a:link{
-	border: 3px solid #000;
+	border: 0.188em solid #000;
 	display: block;
-	height: 100px;
-	width: 100px;
+	height: 6.250em; /*100px*/
+	width: 6.250em;
 	outline: 0;
 
 }
