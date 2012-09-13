@@ -1,11 +1,11 @@
 body {
-	width: 790px;
+	max-width: 790px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #333;
 	font: 100%/1.5 Arial, Helvetica, sans-serif;
 	text-align: left;
-	padding:20px;
+	padding:2.531646%; /*20px/960px*/
 
 }
 /*======== top button =======*/
@@ -47,14 +47,14 @@ body {
 header {
 	background-color: #FFF;
 	height: 95px;
-	width:790px
+	width:100%;
 	margin: auto;
 }
 
 
 header img {
 	float: left;
-	margin: -10px 10px;
+	margin: -1.265823% 1.265823%; /*10px/790px*/
 }
 	
 	
@@ -62,7 +62,7 @@ header img {
 #intro {
 	background-image: url(../images/bg_image.gif);
 	background-repeat: repeat-y;
-	width: 790px;
+	width: 100%;
 }
 
 
@@ -71,9 +71,9 @@ header img {
 		
 header .nav ul {
 	clear: right;
-	width: 525px;
+	width: 66.455696%; /*525px/790px*/
 	margin: 0 -5px 0 0;
-	padding: 5px;
+	padding: .952381%; /* 5px/525px*/
 	list-style: none;
 	overflow: hidden;
 }
@@ -93,8 +93,8 @@ header .nav ul {
 	text-decoration: none;
 	background: #c60;
 	display: block;
-	height: 30px;
-	line-height: 30px;
+	height: 1.875em; /*30px*/
+	line-height: 1.875em; /*30px*/
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -127,14 +127,14 @@ header .nav ul {
 h2, h3, h4 {
 	font: Squada One, cursive;
 	font-weight: normal;
-	text-shadow: 2px 0px 2px #000;
+	text-shadow: 0.125em 0.00em 0.125em; /*2px 0px 2px #000*/
 	line-height:1.5;
 	
 }
 
 h2 {
 	font-size: 2.8125em; /*45px*/
-	text-shadow: 2px 3px 4px #000;
+	text-shadow: 0.125em 0.188em 0.250em; /*2px 3px 4px #000*/
 	clear: both;
 	color: #FFF;
 }
@@ -145,7 +145,7 @@ h3 {
 }
 
 h4 {
-	font-size: 26px;
+	font-size: 1.625em; /*26px*/
 	color: #666;
 	
 }
