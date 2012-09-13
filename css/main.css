@@ -126,7 +126,7 @@ h2 {
 	font-size: 2.8125em; /*45px*/
 	clear: both;
 	color: #fff;
-	margin-left: 2.531646%; /*40px*/
+	margin-left: 2.531646%; /*20px*/
 }
 
 h3 {
@@ -140,13 +140,19 @@ h4 {
 	
 }
 
+#bobhistory{
+	width:100%
+	margin:0 auto;
+	padding: 2.531646%; /*20px/790*/
+}
+
 /*=========heading tags ========*/
 
 article {
 	width: 100%; /*790px*/
 	background-color:silver;
-	padding:15px;
-	margin-top:50px;
+	padding: 1.898734%; /*15px*/
+	margin-top: 6.329114; /*50px*/
 	
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
@@ -156,21 +162,21 @@ article {
 	-webkit-column-gap:1.250em; 
 	column-gap:1.250em;
 
-	-moz-column-rule:2px outset #fff;
-	-webkit-column-rule:2px outset #fff; 
-	column-rule:2px outset #fff;
+	-moz-column-rule:0.125em outset #fff;
+	-webkit-column-rule:0.125em outset #fff; 
+	column-rule:0.125em outset #fff;
 }
 /* =======column text==========*/
 
 #intro {
 	background-image: url(../images/bg_image.gif);
 	background-repeat: repeat-y;
-	width: 100%;
-
+	max-witdth: 100%;
 }
- #main_image{
-	 border: 6px;
-	 width: 81.012658%; /*640px/790*/
+
+#main_image {
+	border: 6px rgb(0,0,0);
+	width: 81.012658%; /*640px/790*/
 	padding: 2.531646%; /*20px/790*/
 	margin: 0 auto;
 	max-width:100%;
@@ -178,7 +184,7 @@ article {
 
 #intro p {
 	margin: auto;
-	padding:30px;	
+	padding: 3.797468%; /*30px*/	
 }
 
 span{
@@ -244,7 +250,7 @@ span{
 /* ------------------------end of image gallery--------*/
 
 #join {
-	color#fff;
+	color: #fff;
 }
 
 
