@@ -56,19 +56,9 @@ header img {
 	float: left;
 	margin: -1.265823% 1.265823%; /*10px/790px*/
 }
-	
-	
-	
-#intro {
-	background-image: url(../images/bg_image.gif);
-	background-repeat: repeat-y;
-	width: 100%;
-}
-
 
 
 	
-		
 header .nav ul {
 	clear: right;
 	width: 66.455696%; /*525px/790px*/
@@ -136,6 +126,7 @@ h2 {
 	font-size: 2.8125em; /*45px*/
 	clear: both;
 	color: #fff;
+	margin-left: 2.531646%; /*40px*/
 }
 
 h3 {
@@ -171,9 +162,18 @@ article {
 }
 /* =======column text==========*/
 
-#intro img{
-	padding: 20px;
+#intro {
+	background-image: url(../images/bg_image.gif);
+	background-repeat: repeat-y;
+	width: 100%;
+
+}
+ #main_image{
+	 border: 6px;
+	 width: 81.012658%; /*640px/790*/
+	padding: 2.531646%; /*20px/790*/
 	margin: 0 auto;
+	max-width:100%;
 }
 
 #intro p {
@@ -186,7 +186,7 @@ span{
 	
 }
 
-/*----------------end of columns----------------------*/
+/*----------------main image and content----------------------*/
 
 #features  {
 	background-color: rgba(204,102,0,0.75);
@@ -205,7 +205,7 @@ span{
 	list-style-type: none;
 	width: 98.101266%; /*775px/790*/
 	border:0.250em solid #FF8C00;
-	margin:auto;
+	margin:0 auto;
 	overflow:hidden;
 }
 
