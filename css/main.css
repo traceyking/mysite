@@ -5,26 +5,26 @@ body {
 	background-color: #333;
 	font: 100%/1.5 Arial, Helvetica, sans-serif;
 	text-align: left;
-	padding:2.531646%; /*20px/960px*/
+	padding:2.531646%; /*20px/790px*/
 
 }
 /*======== top button =======*/
 .top {
-   border-top: 1px solid #ffffff;
+   border-top: 0.063em solid #ffffff;
    background: #ba7007;
    background: -webkit-gradient(linear, left top, left bottom, from(#facead), to(#ba7007));
    background: -webkit-linear-gradient(top, #facead, #ba7007);
    background: -moz-linear-gradient(top, #facead, #ba7007);
    background: -ms-linear-gradient(top, #facead, #ba7007);
    background: -o-linear-gradient(top, #facead, #ba7007);
-   padding: 10.5px 21px;
-   -webkit-border-radius: 9px;
-   -moz-border-radius: 9px;
-   border-radius: 9px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   padding: 0.656em 1.313em; /*10.5px 21px*/
+   -webkit-border-radius: 0.563em;
+   -moz-border-radius: 0.563em; /*9px*/
+   border-radius: 0.563em;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 0.563em 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 0.563em 0;
+   box-shadow: rgba(0,0,0,1) 0 0.563em 0;
+   text-shadow: rgba(0,0,0,.4) 0 0.563em 0;
    color: white;
    font-size: 0.8125em; /*13px*/
    font-family: Georgia, serif;
@@ -45,25 +45,25 @@ body {
 /*====== header and image starts below ===== */   
    
 header {
-	background-color: #FFF;
-	height: 95px;
 	width:100%;
 	margin: auto;
+	background-color: rgb(255,255,255);
 }
 
 
 header img {
 	float: left;
-	margin: -1.265823% 1.265823%; /*10px/790px*/
+	width: 27.7721519%; /*219px/790px*/
+	padding: 2.531646%; /*20px*/
 }
 
 
 	
 header .nav ul {
-	clear: right;
-	width: 66.455696%; /*525px/790px*/
-	margin: 0 -.952381% 0 0; /*-5px/525*/
-	padding: .952381%; /* 5px/525px*/
+	
+	width: 67.21519%; /*531px/790px*/
+	margin: 0 auto; /*-5px/525*/
+	padding: 2.531646%; /*20px*/
 	list-style: none;
 	overflow: hidden;
 }
@@ -198,11 +198,11 @@ span{
 /*----------------main image and content----------------------*/
 
 #features  {
+	width:100%;
 	background-color: rgba(204,102,0,0.75);
-	border-bottom: #333 0.188em; /*3px*/
-	border-top: #333 0.188em; /*3px*/
+	border: rgb(255,255,255) 0.313em; /*5px*/
 	margin: 0 auto;
-	padding: 20px;
+	padding:  2.531646%; /*20px/790*/
 }
 
 #features ol {
@@ -213,7 +213,7 @@ span{
 #images ul{
 	list-style-type: none;
 	width: 98.101266%; /*775px/790*/
-	border:0.250em solid #FF8C00;
+	border: 0.250em solid #FF8C00;
 	margin:0 auto;
 	overflow:hidden;
 }
@@ -262,3 +262,24 @@ span{
 footer {
 	background-color:#fff;
 }
+
+
+
+/*======================Media Queries=================*/
+/*Tablet size to standard 960px (devices and browsers)*/
+@media screen and (min-width: 768px) and (max-width:959px) {
+	body { background-color: rgb(153,153,153)}
+	
+	}
+	
+/*Mobile landscape to Portrait size to Tablet (devices and browser) */
+@media screen and (min-width: 480px) and (max-width:767px) {
+	body { background-color: rgb(255,102,0)}
+	
+	}	
+	
+/*Mobile landscape to Portrait size to Tablet (devices and browser) */
+@media screen and (max-width: 479px) {
+	body { background-color: rgb(255,153,0)}
+	
+	}	
