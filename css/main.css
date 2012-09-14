@@ -141,7 +141,7 @@ h4 {
 }
 
 #bobhistory{
-	width:100%
+	width:100%;
 	margin:0 auto;
 	padding: 2.531646%; /*20px/790*/
 }
@@ -171,7 +171,7 @@ article {
 #intro {
 	background-image: url(../images/bg_image.gif);
 	background-repeat: repeat-y;
-	max-witdth: 100%;
+	max-width: 100%;
 }
 
 #main_image {
@@ -285,9 +285,10 @@ footer {
 	.nav li { font-size:100%;}
 	h2 { font-size: 200%;}
 	h3 { font-size: 100%;}
-	h4 { font-size: 75%;}
-	article { width:100%;
-		font-size:80%;}
+	h4 { font-size: 100%;}
+	article { font-size:80%;
+		-moz-column-width: 100%;
+		webkit-column-width: 100%;}
 	#main_image img { display:none;}
 	#intro { background-image: none;}
 	.top { background:none;
@@ -318,9 +319,12 @@ footer {
 	.nav li { font-size:90%;}
 	h2 { font-size: 200%;}
 	h3 { font-size: 100%;}
-	h4 { font-size: 75%;}
-	article { width:100%;
-		font-size:70%;}
+	h4 { font-size: 100%;}
+	article { 
+		font-size:70%;
+		-moz-column-width: 100%;
+		webkit-column-width: 100%;}
+		
 	#main_image img { display:none;}
 	#intro { background-image: none;}
 	.top { background:none;
