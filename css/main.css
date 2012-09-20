@@ -288,7 +288,10 @@ footer {
 	h4 { font-size: 100%;}
 	article { font-size:80%;
 		-moz-column-width: 100%;
-		webkit-column-width: 100%;}
+		webkit-column-width: 100%;
+		-moz-column-count: 0; /* Firefox */
+		-webkit-column-count:0; /* Safari and Chrome */
+		column-count: 0;}
 	#main_image img { display:none;}
 	#intro { background-image: none;}
 	.top { background:none;
@@ -297,6 +300,7 @@ footer {
    		-moz-box-shadow: none;
   		box-shadow: none;
   	 	text-shadow: none;
+		
 	}
 	
 	
@@ -323,7 +327,10 @@ footer {
 	article { 
 		font-size:70%;
 		-moz-column-width: 100%;
-		webkit-column-width: 100%;}
+		webkit-column-width: 100%;
+		-moz-column-count:0; /* Firefox */
+		-webkit-column-count:0; /* Safari and Chrome */
+		column-count:1;}
 		
 	#main_image img { display:none;}
 	#intro { background-image: none;}
@@ -333,6 +340,6 @@ footer {
    		-moz-box-shadow: none;
   		box-shadow: none;
   	 	text-shadow: none;
-	}
+	
 	
 	}	
