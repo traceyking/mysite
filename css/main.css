@@ -136,23 +136,24 @@ h3 {
 
 h4 {
 	font-size: 1.625em; /*26px*/
-	color: #666;
-	
+	color: rgb(51,51,51);	
 }
 
-#bobhistory{
-	width:100%;
-	margin:0 auto;
-	padding: 2.531646%; /*20px/790*/
-}
+
 
 /*=========heading tags ========*/
-
-article {
-	width: 100%; /*790px*/
+#bobhistory{
+	width:100%;
 	background-color:silver;
-	padding: 1.898734%; /*15px*/
+	margin:0 auto;
+	/*padding: 2.531646%; /*20px/790*/
+}
+article {
+	width: 97.468354%; /*770px*/
+	/*padding: 1.898734%; /*15px*/
 	margin-top: 6.329114; /*50px*/
+	margin-right: 2.531646%;
+	margin-left:2.531646%;
 	
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
@@ -175,13 +176,17 @@ article {
 }
 
 #main_image {
-	width: 81.012658%; /*640px/790*/
+	max-width:100%; /*640px/790 81.012658%*/
+	margin:0 auto;
 	padding: 2.531646%; /*20px/790*/
-	margin: 0 auto;
+	
 }
 
 #main_image img{
 	max-width:100%;
+	margin:0 auto;
+	/*padding: 2.531646%;*/
+
 }
 
 
@@ -198,21 +203,22 @@ span{
 /*----------------main image and content----------------------*/
 
 #features  {
-	width:100%;
-	background-color: rgba(204,102,0,0.75);
-	border: rgb(255,255,255) 0.313em; /*5px*/
-	margin: 0 auto;
-	padding:  2.531646%; /*20px/790*/
+	width: 100%;
+	background-color: rgba(204,51,0,0.75);
+	margin: 0 auto;	
+	
+	
 }
 
 #features ol {
-		color:#CCC;
+	color: #FFF;
+	margin: 2.531646%; /*20px/790*/
 		
 }
 	
 #images ul{
 	list-style-type: none;
-	width: 98.101266%; /*775px/790*/
+	width: 97.468354%; /*770px*/
 	border: 0.250em solid #FF8C00;
 	margin:0 auto;
 	overflow:hidden;
@@ -220,7 +226,7 @@ span{
 
 #images li{
 	float:left;
-	margin: 2.580645%; /*20px/775px*/
+	margin:2.531646%; /*20px/770px*/
 }
 
 #images a:link{
