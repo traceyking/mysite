@@ -311,6 +311,7 @@ footer {
 /*Tablet size to standard 960px (devices and browsers)*/
 @media screen and (min-width: 768px) and (max-width:959px) {
 	body { background-color: rgb(153,153,153);}
+	td { border: 0.125em solid #333;}
 	
 	}
 	
@@ -323,8 +324,8 @@ footer {
 			background-color: rgba(255,255,255,);
 			}
 	#main_image img { display:none;}
-	header .nav ul { width: 100%;}
-	.nav li { font-size:100%;}
+	#nav ul { width: 100%;}
+	#nav li { font-size:100%;}
 	h2 { font-size: 200%;}
 	h3 { font-size: 100%;}
 	h4 { font-size: 100%;}
@@ -346,7 +347,9 @@ footer {
 		
 	}
 	
-}	
+	td { border: 0.125em solid #333;}
+	
+	
 	
 /*Mobile landscape to Portrait size to Tablet (devices and browser) */
 @media screen and (max-width: 479px) {
@@ -354,8 +357,11 @@ footer {
 	p { font-size:100%;}
 	#main_image img { display:none;
 	clear:both;}
-	header .nav ul { width: 80%;}
-	.nav li { font-size:90%;}
+	#nav ul { width: 80%;
+	margin:0;
+	padding:0;
+}
+	#nav li { font-size:90%;}
 	h2 { font-size: 200%;}
 	h3 { font-size: 100%;}
 	h4 { font-size: 100%;}
@@ -370,7 +376,11 @@ footer {
 		
 	#main_image img { display:none;}
 	#intro { background-image: none;}
-	header .nav ul { width: 80%;}5
+	 #nav ul { width: 80%;}
+	 #nav a:link{
+		 display:block;
+		width:60px;
+	 }
 	.top { background:none;
 		font-size:100%;
 		webkit-box-shadow: none;
