@@ -334,6 +334,7 @@ footer {
 		
 	#main_image img { display:none;}
 	#intro { background-image: none;}
+	header .nav ul { width: 80%;}
 	.top { background:none;
 		font-size:100%;
 		webkit-box-shadow: none;
