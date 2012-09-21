@@ -273,7 +273,7 @@ table {
 
 td { 
 	width: 39.367089%; /*311/790*/
-	border: 2px solid #999;
+	border: 0.125em solid #999;
 	padding: .5em;
 }
 
@@ -282,13 +282,24 @@ th {
 	text-align:left;
 	padding: .5em;
 }
+/*----------------tables end---------------------------*/
 
 #join {
+	width: 97.468354%; /*770px*/
 	color: #fff;
+	background-color: rgb(102,102,102);
+	padding: 1.298701%; /*10px*/
 }
 
-
+form{
+	margin: 3.797468%; /* 30px*/
 	
+}
+
+input [type="text"]{
+	-webkit-appearance:none;
+	border:1px solid #F63;
+}
 
 footer {
 	background-color:#fff;
