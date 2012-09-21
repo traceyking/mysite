@@ -264,16 +264,21 @@ span{
 
 table {
 	/*float:left;*/
+	width:100%;
 	border-collapse: collapse;
 	color: #FFF;
+	margin:0 auto;
 	
 }
 
-td { border: 2px solid #999;
+td { 
+	width: 39.367089%; /*311/790*/
+	border: 2px solid #999;
 	padding: .5em;
 }
 
 th { 
+	max-width: 59.240506%; /*468px/790px*/
 	text-align:left;
 	padding: .5em;
 }
