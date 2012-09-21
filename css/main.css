@@ -216,7 +216,11 @@ span{
 		
 }
 	
+#images{
+	clear:both;
+}
 #images ul{
+	
 	list-style-type: none;
 	width: 97.468354%; /*770px*/
 	border: 0.250em solid #FF8C00;
@@ -257,6 +261,22 @@ span{
 
 
 /* ------------------------end of image gallery--------*/
+
+table {
+	/*float:left;*/
+	border-collapse: collapse;
+	color: #FFF;
+	
+}
+
+td { border: 2px solid #999;
+	padding: .5em;
+}
+
+th { 
+	text-align:left;
+	padding: .5em;
+}
 
 #join {
 	color: #fff;
@@ -334,7 +354,7 @@ footer {
 		
 	#main_image img { display:none;}
 	#intro { background-image: none;}
-	header .nav ul { width: 80%;}
+	header .nav ul { width: 80%;}5
 	.top { background:none;
 		font-size:100%;
 		webkit-box-shadow: none;
